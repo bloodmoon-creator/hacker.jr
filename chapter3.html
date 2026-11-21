@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Burp Suite - Chapter 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="burp-page">
+
+    <div class="nav-controls">
+        <a class="nav-btn" href="chapter2.html">PREVIOUS</a>
+        <a class="nav-btn" href="chapter4.html">NEXT</a>
+    </div>
+
+    <h1>Hacker Chapter 3: Burp Suite</h1>
+
+    <h2>What is Burp Suite?</h2>
+
+    <p>
+        Burp Suite is a web security testing tool. It allows you to see,
+        inspect, and modify the requests that your browser sends to a website.
+        It is commonly used by penetration testers.
+    </p>
+
+    <h2>How to Use Burp Suite</h2>
+
+    <ol>
+        <li>Open Burp Suite and start a temporary project.</li>
+        <li>Open Burp's built-in browser.</li>
+        <li>Go to a website you are authorized to test.</li>
+        <li>Open <strong>Proxy → HTTP history</strong> to see the requests.</li>
+        <li>Click a request to inspect its headers, URL, parameters, and response.</li>
+        <li>Send a request to <strong>Repeater</strong> to test changes manually.</li>
+    </ol>
+
+    <h2>Important Features</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Feature</th>
+            <th>Use</th>
+        </tr>
+
+        <tr>
+            <td>Proxy</td>
+            <td>Intercept and inspect browser traffic.</td>
+        </tr>
+
+        <tr>
+            <td>HTTP History</td>
+            <td>View requests and responses.</td>
+        </tr>
+
+        <tr>
+            <td>Repeater</td>
+            <td>Modify and resend requests manually.</td>
+        </tr>
+
+        <tr>
+            <td>Intruder</td>
+            <td>Automate repeated requests for authorized testing.</td>
+        </tr>
+
+        <tr>
+            <td>Decoder</td>
+            <td>Encode and decode data.</td>
+        </tr>
+
+    </table>
+
+    <h2>Simple Example</h2>
+
+    <p>
+        Visit a test website using Burp's browser. Find your request in
+        <strong>Proxy → HTTP history</strong>, right-click it, and choose
+        <strong>Send to Repeater</strong>. In Repeater, you can change a
+        harmless parameter and click <strong>Send</strong> to see how the
+        server responds.
+    </p>
+
+    <p>
+        <strong>Important:</strong> Only use Burp Suite on websites,
+        applications, or cybersecurity labs where you have permission to test.
+    </p>
+
+    <div class="nav-controls">
+        <a class="nav-btn" href="chapter2.html">PREVIOUS</a>
+        <a class="nav-btn" href="chapter4.html">NEXT</a>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nmap - Chapter 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nmap-page">
+
+    <div class="nav-controls">
+        <a class="nav-btn" href="index.html">PREVIOUS</a>
+        <a class="nav-btn" href="chapter3.html">NEXT</a>
+    </div>
+
+    <h1>Hacker Chapter 2: Nmap</h1>
+
+    <h2>What is Nmap?</h2>
+
+    <p>
+        Nmap (Network Mapper) is a tool used to discover devices, open ports,
+        and services on a network.
+    </p>
+
+    <h2>Important Commands</h2>
+
+    <table border="1">
+        <tr>
+            <th>Command</th>
+            <th>Purpose</th>
+        </tr>
+
+        <tr>
+            <td><code>nmap 192.168.1.10</code></td>
+            <td>Basic scan</td>
+        </tr>
+
+        <tr>
+            <td><code>nmap -sV 192.168.1.10</code></td>
+            <td>Detect service versions</td>
+        </tr>
+
+        <tr>
+            <td><code>nmap -O 192.168.1.10</code></td>
+            <td>Try to detect the operating system</td>
+        </tr>
+
+        <tr>
+            <td><code>nmap -p 80,443 192.168.1.10</code></td>
+            <td>Scan specific ports</td>
+        </tr>
+
+        <tr>
+            <td><code>nmap -p- 192.168.1.10</code></td>
+            <td>Scan all TCP ports</td>
+        </tr>
+    </table>
+
+    <div class="nav-controls">
+        <a class="nav-btn" href="index.html">PREVIOUS</a>
+        <a class="nav-btn" href="chapter3.html">NEXT</a>
+    </div>
+
+</body>
+
+</html>

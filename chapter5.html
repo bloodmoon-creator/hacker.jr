@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web Fundamentals - Chapter 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="web-page">
+
+    <div class="nav-controls">
+        <a class="nav-btn" href="chapter4.html">PREVIOUS</a>
+        <a class="nav-btn" href="chapter6.html">NEXT</a>
+    </div>
+
+    <h1>Hacker Chapter 5: Web Fundamentals</h1>
+
+    <h2>What is HTTP?</h2>
+
+    <p>
+        HTTP (HyperText Transfer Protocol) is used for communication between
+        a web browser and a web server. HTTPS is the encrypted version of HTTP.
+    </p>
+
+    <h2>Request &amp; Response</h2>
+
+    <p>
+        When you visit a website, your browser sends a
+        <strong>request</strong> to the server. The server processes it and
+        sends a <strong>response</strong> back.
+    </p>
+
+    <pre><code>Browser → Request → Server
+Browser ← Response ← Server</code></pre>
+
+    <h2>Important HTTP Methods</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Method</th>
+            <th>Purpose</th>
+        </tr>
+
+        <tr>
+            <td>GET</td>
+            <td>Requests information from a server.</td>
+        </tr>
+
+        <tr>
+            <td>POST</td>
+            <td>Sends data to a server.</td>
+        </tr>
+
+        <tr>
+            <td>PUT</td>
+            <td>Updates or replaces data.</td>
+        </tr>
+
+        <tr>
+            <td>DELETE</td>
+            <td>Requests that data be removed.</td>
+        </tr>
+
+    </table>
+
+    <h2>Common Status Codes</h2>
+
+    <table border="1">
+
+        <tr>
+            <th>Code</th>
+            <th>Meaning</th>
+        </tr>
+
+        <tr>
+            <td>200</td>
+            <td>Success</td>
+        </tr>
+
+        <tr>
+            <td>301</td>
+            <td>Redirect</td>
+        </tr>
+
+        <tr>
+            <td>403</td>
+            <td>Forbidden</td>
+        </tr>
+
+        <tr>
+            <td>404</td>
+            <td>Page not found</td>
+        </tr>
+
+        <tr>
+            <td>500</td>
+            <td>Server error</td>
+        </tr>
+
+    </table>
+
+    <h2>Cookies</h2>
+
+    <p>
+        Cookies are small pieces of data stored by a browser. Websites can use
+        them to remember information such as login sessions and preferences.
+    </p>
+
+    <h2>Why Does This Matter?</h2>
+
+    <p>
+        Understanding HTTP, requests, responses, cookies, and status codes
+        makes tools like Burp Suite much easier to understand.
+    </p>
+
+    <div class="nav-controls">
+        <a class="nav-btn" href="chapter4.html">PREVIOUS</a>
+        <a class="nav-btn" href="chapter6.html">NEXT</a>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Networking Basics - Chapter 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="network-page">
+
+    <div class="nav-controls">
+        <a class="nav-btn" href="chapter5.html">PREVIOUS</a>
+        <a class="nav-btn" href="test.html">NEXT</a>
+    </div>
+
+    <h1>Hacker Chapter 6: Networking Basics</h1>
+
+    <h2>What is a Network?</h2>
+
+    <p>
+        A network is simply a group of devices connected together so they can
+        communicate and share information. Your computer, phone, printer, and
+        other devices can all communicate through a network. The internet is
+        basically a huge collection of networks connected together.
+    </p>
+
+    <h2>IP Address</h2>
+
+    <p>
+        An IP address is an address used to identify a device on a network.
+        Think of it like the address of a house. When one device needs to
+        communicate with another device, the IP address helps it know where
+        to send the information.
+    </p>
+
+    <p>
+        Example:
+    </p>
+
+    <pre><code>192.168.1.10</code></pre>
+
+    <h2>Ports</h2>
+
+    <p>
+        A port can be thought of as a numbered doorway into a device. Different
+        services commonly use different ports. For example, web traffic commonly
+        uses ports 80 and 443.
+    </p>
+
+    <table border="1">
+
+        <tr>
+            <th>Port</th>
+            <th>Common Use</th>
+        </tr>
+
+        <tr>
+            <td>22</td>
+            <td>SSH</td>
+        </tr>
+
+        <tr>
+            <td>53</td>
+            <td>DNS</td>
+        </tr>
+
+        <tr>
+            <td>80</td>
+            <td>HTTP</td>
+        </tr>
+
+        <tr>
+            <td>443</td>
+            <td>HTTPS</td>
+        </tr>
+
+    </table>
+
+    <h2>TCP and UDP</h2>
+
+    <p>
+        TCP and UDP are two different ways of sending information across a
+        network. TCP focuses on reliable delivery, meaning it checks that
+        information arrives correctly. UDP is faster and has less overhead,
+        but it does not provide the same delivery guarantees.
+    </p>
+
+    <h2>DNS</h2>
+
+    <p>
+        DNS stands for Domain Name System. It translates easy-to-remember
+        domain names into IP addresses. This means you can type a website
+        name instead of having to remember its numerical IP address.
+    </p>
+
+    <pre><code>example.com → IP address</code></pre>
+
+    <h2>Router</h2>
+
+    <p>
+        A router connects networks together and directs traffic to the correct
+        destination. Your home router, for example, connects your local devices
+        to your internet connection.
+    </p>
+
+    <h2>Client and Server</h2>
+
+    <p>
+        A client is a device or program that requests something. A server is
+        a computer or program that provides it. When you open a website, your
+        browser acts as the client and the website's server sends the requested
+        information back.
+    </p>
+
+    <h2>How It All Connects</h2>
+
+    <pre><code>Your Computer
+  ↓
+Router
+  ↓
+Internet
+  ↓
+Web Server
+  ↓
+Response</code></pre>
+
+    <p>
+        Understanding these basic concepts makes tools such as Nmap and
+        Burp Suite much easier to understand because you now know what
+        devices, ports, services, and web traffic actually are.
+    </p>
+
+    <p>
+        <strong>Remember:</strong> Only test networks and devices that you
+        own or have permission to test.
+    </p>
+
+    <div class="nav-controls">
+        <a class="nav-btn" href="chapter5.html">PREVIOUS</a>
+        <a class="nav-btn" href="test.html">NEXT</a>
+    </div>
+
+</body>
+
+</html>
